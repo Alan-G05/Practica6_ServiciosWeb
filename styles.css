@@ -1,0 +1,93 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient(0deg, rgba(16, 112, 33, 1) 0%, rgba(16, 77, 11, 1) 50%, rgba(6, 31, 2, 1) 100%);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#examples-container {
+    width: 70%;
+    margin: 0 auto 20px auto;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+#examples-container ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#examples-container li {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 6px 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+#examples-container li:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+input {
+    display: block;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #e2d6d6;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #2b2929;
+    font-size: 16px;
+}
+
+#results-container {
+    width: 70%;
+    margin: 25px auto;
+    color: white;
+}
+
+#results-container h2 {
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 8px;
+}
+
+#results-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+#results-container li {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#results-container .mensaje {
+    text-align: center;
+    font-style: italic;
+    color: #ffd700;
+}
